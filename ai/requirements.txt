@@ -1,0 +1,11 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+aiofiles>=23.2.1
+pydub>=0.25.1
+numpy>=1.24.0
+# PyTorch + coqui-tts (XTTS v2). Use install.ps1 or fix-deps.ps1 on Windows.
+# PyTorch must stay <2.9 unless you also install: pip install coqui-tts[codec]
+coqui-tts>=0.27.5
+# coqui-tts breaks with transformers>=5.1 (isin_mps_friendly removed)
+transformers>=4.57.5,<5.1

@@ -1,0 +1,9 @@
+.venv
+data/voices
+data/generated
+data/voices.json
+data/history.json
+__pycache__
+*.pyc
+.env
+.git

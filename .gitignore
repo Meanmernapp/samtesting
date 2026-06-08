@@ -1,0 +1,9 @@
+ai/.venv/
+ai/data/voices/
+ai/data/generated/
+ai/data/voices.json
+ai/data/history.json
+__pycache__/
+*.pyc
+.env
+.DS_Store
